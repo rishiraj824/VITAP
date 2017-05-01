@@ -109,13 +109,16 @@ navbar-brand {
 }
 .item img{
 	width:100%;
-	height: auto;
+}
+.item{
+	height: 500px;
+	position: relative;
 }
 .carousel-caption
 {
 	position: absolute;
 	right: 0%;
-	bottom: 40px;
+	bottom: 650px;
 	z-index: 10;
 	color: #fff;
 	text-align: left;
