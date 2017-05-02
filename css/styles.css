@@ -18,7 +18,7 @@ navbar-brand {
     border-radius: 0px !important;
 }
 .navbar .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #ccc;
+    color: #f2f2f2;
     background-color: transparent;
 }
 .example3{
@@ -35,6 +35,7 @@ navbar-brand {
 .example3 .nav >li >a {
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 1.3em;
 }
 .example3 .navbar-toggle {
   padding: 10px;
@@ -82,7 +83,7 @@ navbar-brand {
 	text-align: center;
 	list-style: none;
 	right: 0 !important;
-	background: #b7b7c0 !important;
+	background: rgba(183, 183, 192, 0.78) !important;
 	padding: 4px;
 }
 .carousel-indicators li
@@ -172,6 +173,9 @@ navbar-brand {
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
 	border-top: 1px solid #DDDDDD;
+}
+footer{
+	position: relative;
 }
 .footer p {
 	margin: 0;
@@ -314,31 +318,195 @@ navbar-brand {
     z-index: 24;
     position: relative;
     top: 50%;
+    margin: 0 auto; 
     font-family: Roboto;
     text-align : left;
 }
-.section-overlay img{
+.section-top img{
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
+  width: 100%;
 }
 .content-main p {
-   font-size: 1.1em;
    font-weight: 500;
+   font-size: 1.5em;
 }
 .content-main p:first-child{
   margin-top: 20px;
   
 }
+.collection .collection-item {
+    background-color: #3B5998;
+    line-height: 1.5rem;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #fff;
+    font-size: 1.5em;
+}
+.collection{
+	 -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        border: 1px solid #e0e0e0;
+        padding-left: 0px;
+}
+
 .content-main{
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+.content-main ul li {
+	font-size: 1.5em;
+	list-style-type: none;
 }
 .section-top{
   position: relative;
   width: 100%;
   overflow: hidden;
   z-index: 1;
+}
+.subscription-box{
+	height: 320px;
+	position: relative;
+}
+.overlay-background{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+
+}
+.input-custom{
+    z-index: 24;
+    background: white;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.input-group-addon{
+	background: transparent;
+	border: 0 !important;
+
+}
+.submit-button{
+	background: #355797;
+    color: #fff;
+
+}
+.vitaplogo{
+    height: 80px;
+    width: auto;
+    text-align: center;
+    z-index: 24;
+    position: relative;
+    margin: 40px auto;
+}
+.subscription-box h4{ 
+	position: relative;
+    color: #fff;
+    z-index: 24;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-icon{
+	color: #ccc;
+}
+.form-control{
+	height: 44px;
+	border: 0 !important;
+}
+.navbar .navbar-nav>li>a:hover {
+    background: #355797;
+    transition: 0.3s linear;
+}
+.google-maps {
+        position: relative;
+        padding-bottom: 30%; 
+        height: 0;
+        overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+}
+.custom-img{
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.img-caption{
+	background: #f2f2f2;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px; 
+	padding: 10px;
+}
+.collection-custom{
+		 -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	        border: 1px solid #e0e0e0;
+	        padding: 20px;
+	        padding-top:10px;
+}
+.image-box{
+	width: 700px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.card{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.card .card-image {
+    margin-bottom: -6px;
+}
+.card .card-image {
+    position: relative;
+}
+.card .card-image img {
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.card-left-align {
+    padding: 0 0 !important;
+}
+.right {
+    float: right!important;
+}
+.vitblue a{
+	font-size: 1.5em;
+}
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	padding: 10 0px;
+}
+.modal-content p{
+	font-size: 1.5em;   
+
+}
+.modal-content{
+	 padding: 20px;
 }
