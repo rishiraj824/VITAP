@@ -165,7 +165,7 @@ navbar-brand {
 	display: block;
 }
 .footer {
-	background: #EDEFF1;
+	background: #3b5998;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -181,7 +181,7 @@ navbar-brand {
 }
 .footer h3 {
 	border-bottom: 1px solid #BAC1C8;
-	color: #54697E;
+	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 27px;
@@ -194,14 +194,14 @@ navbar-brand {
 	margin-left: 0;
 	padding-left: 0;
 	margin-top: 15px;
-	color: #7F8C8D;
+	color: #ccc;
 }
 .footer ul li a {
 	padding: 0 0 5px 0;
 	display: block;
 }
 .footer a {
-	color: #78828D
+	color: #fff
 }
 .supportLi h4 {
 	font-size: 20px;
@@ -279,14 +279,66 @@ navbar-brand {
 	color: #EDEFF1 !important;
 }
 .footer-bottom {
-	background: #E3E3E3;
-	border-top: 1px solid #DDDDDD;
+	background: #283b66;
 	padding-top: 10px;
+	color: #fff;
 	padding-bottom: 10px;
 }
 .footer-bottom p.pull-left {
 	padding-top: 6px;
+	color: #fff;
 }
-.payments {
-	font-size: 1.5em;	
+
+.vitblue {
+    color: #3B5998 !important;
+}
+.overlay{
+  position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.51);
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 23;
+}
+.section-overlay{
+  position: relative;
+ height: 400px;
+}
+.section-overlay h1 {
+    font-weight: 100;
+    font-size: 6em;
+    color: #fff;
+    z-index: 24;
+    position: relative;
+    top: 50%;
+    font-family: Roboto;
+    text-align : left;
+}
+.section-overlay img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.content-main p {
+   font-size: 1.1em;
+   font-weight: 500;
+}
+.content-main p:first-child{
+  margin-top: 20px;
+  
+}
+.content-main{
+  margin-bottom: 20px;
+}
+.section-top{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
 }
