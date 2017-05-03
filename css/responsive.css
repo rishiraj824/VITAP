@@ -1345,6 +1345,13 @@
     overflow: hidden;
     height: auto;
 }
+.section-overlay h1 {
+
+    font-size: 4em;
+}
+.collection .collection-item {
+    line-height: 1;
+}
 .item {
     height: auto;
     position: relative;
