@@ -9,6 +9,12 @@ navbar-brand {
   height: 100%;
   width: auto;
 }
+.navbar-header{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 4.2;
+}
 .navbar{
 	background: rgba(59,89,152,0.8);
     width: 100%;
