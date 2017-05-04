@@ -2,7 +2,7 @@
 @media screen 
   and (min-width: 1200px)   { 
   	.carousel-caption {
-        bottom: 100px;
+        bottom: 303px;
 	}
     .carousel-inner>.item>img {
     line-height: 1;
@@ -13,13 +13,13 @@
 @media screen 
   and (min-width: 1400px)   { 
   	.carousel-caption {
-    bottom: 150px;
+    bottom: 411px;
 }
 }
 @media screen 
   and (min-width: 1800px)   { 
     .carousel-caption {
-    bottom: 400px;
+    bottom: 600px;
 }
 }
 
@@ -33,7 +33,7 @@
     bottom: 150px;
 	}
 }
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
     .navbar-header {
         float: none;
     }
@@ -43,6 +43,15 @@
     .navbar-toggle {
         display: block;
     }
+    .section-top img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
@@ -61,25 +70,12 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-}
-
-/* ----------- iPad mini ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
 
 }
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media only screen and (max-width: 768px){
+  .header-main{
+      display: none;
+    }
 }
 
 /* Landscape */
@@ -128,42 +124,6 @@
     margin: 8px 15px 8px 0;
     color: #fff;
 }
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* ----------- iPad 3 and 4 ----------- */
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
 }
 
 
@@ -263,13 +223,12 @@
 .carousel-caption {
     position: absolute;
     right: 0%;
-    /* bottom: 650px; */
     z-index: 10;
     color: #fff;
     text-align: left;
     background: rgba(38,50,70, 0.7);
     padding: 10px;
-    width: 70%;
+    width: 60%;
     left: 15%;
 }
 .input-custom {

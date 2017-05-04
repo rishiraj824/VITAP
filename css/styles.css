@@ -15,6 +15,13 @@ navbar-brand {
     font-size: 1.3em;
     line-height: 4.2;
 }
+.header-main{
+	color: #fff;
+	font-weight: 800;
+	font-size: 3.4em;
+	margin-top: -120px;
+	float: right;
+}
 .navbar{
 	background: rgba(59,89,152,0.8);
     width: 100%;
@@ -123,16 +130,15 @@ navbar-brand {
 }
 .carousel-caption
 {
-	position: absolute;
-	right: 0%;
-	bottom: 650px;
-	z-index: 10;
-	color: #fff;
-	text-align: left;
-	background: rgba(38,50,70, 0.7);
-	padding: 20px;
-	width: 70%;
-	left: 30%;
+    position: absolute;
+    right: 0%;
+    bottom: 650px;
+    z-index: 10;
+    color: #fff;
+    text-align: right;
+    background: rgba(38,50,70, 0.7);
+    padding: 20px;
+    left: 51%;
 }
 
 .carousel-caption h3{
@@ -353,7 +359,7 @@ footer{
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -200px;
   text-align: center;
   margin: auto;
   width: 100%;
@@ -364,6 +370,8 @@ footer{
 .carousel-inner>.item>img {
     line-height: 1;
     margin-top: -250px;
+    filter: brightness(70%);
+    -moz-filter: brightness(70%);
 }
 .collection-custom img{
 	margin: auto;
@@ -473,7 +481,7 @@ footer{
 }
 .google-maps {
         position: relative;
-        padding-bottom: 30%; 
+        padding-bottom: 70%; 
         height: 0;
         overflow: hidden;
 }
