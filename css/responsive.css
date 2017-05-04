@@ -1423,4 +1423,7 @@
     width: 40%;
     left: 90%;
   }
+  .section-top img {
+    bottom: -50px;
+}
 }
