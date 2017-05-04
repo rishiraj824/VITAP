@@ -2,7 +2,7 @@
 @media screen 
   and (min-width: 1200px)   { 
   	.carousel-caption {
-        bottom: 220px;
+        bottom: 300px;
 	}
 }
 /* ----------- HQ Screens ----------- */
@@ -15,10 +15,13 @@
 @media screen 
   and (min-width: 1800px)   { 
     .carousel-caption {
-    bottom: 600px;
+    bottom: 630px;
 }
 }
-
+.carousel-inner>.item>img {
+    line-height: 1;
+    margin-top: 0px;
+}
 
 /* ----------- Retina Screens ----------- */
 @media screen 
