@@ -118,6 +118,9 @@ navbar-brand {
 	margin: 0;
 	background-color: #6b6d72;
 }
+.clear-left-another{
+    clear: left;
+  }
 .container{
 	position: relative;
 }
