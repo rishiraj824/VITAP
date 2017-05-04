@@ -365,6 +365,13 @@ footer{
     line-height: 1;
     margin-top: -250px;
 }
+.collection-custom img{
+	margin: auto;
+	text-align: center;
+	position: relative;
+	height: 200px;
+	padding: 20px;
+}
 .content-main p {
    font-weight: 500;
    font-size: 1.5em;
