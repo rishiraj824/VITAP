@@ -143,6 +143,11 @@ navbar-brand {
     padding: 20px;
     left: 51%;
 }
+.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
 .facebook-plugin{
 	padding-top: 20px;
     position: relative;
