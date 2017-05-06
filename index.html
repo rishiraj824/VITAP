@@ -261,13 +261,16 @@
       		<img src="img/vitttaplogo.png" alt="VIT AP University" class="img-responsive vitaplogo">
       		<h4>Subscribe to our latest updates, newsletter and information from VIT AP.</h4>
       		<br>
-      		<div class="input-custom">
-      			<div class="input-group custom-input-group ">
-      		  <span class="input-group-addon info-icon"><i class="fa fa-envelope fa-2x"></i></span>
-      		  <input type="text" class="form-control" placeholder="Your Email Here">
-      		  <span class="input-group-addon submit-button">Subscribe</span>
-      		</div>
-      		</div>
+          <form action="submitEmail.php" action="POST" id="subscribe-form">
+            <div class="input-custom">
+            <div class="input-group custom-input-group ">
+            <span class="input-group-addon info-icon"><i class="fa fa-envelope fa-2x"></i></span>
+            <input type="email" class="form-control" placeholder="Your Email Here">
+            <span class="input-group-addon submit-button" onclick="$("#subscribe-form").submit()" style="cursor: pointer;">Subscribe</span>
+          </div>
+          </div>
+          </form>
+      		
       		
 	      </div>
       		<div class="overlay"></div>
