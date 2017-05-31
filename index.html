@@ -37,6 +37,7 @@
   ga('create', 'UA-98438195-1', 'auto');
   ga('send', 'pageview');
 
+
 </script>
   </head>
 
@@ -67,7 +68,13 @@
             <ul class="nav navbar-nav navbar-right">
 
               <li><a href="VIT-AP-advantage.html">VIT-AP Advantage</a></li>
-              <li><a href="admission.html">Admissions</a></li>
+              <li class="dropdown"><a href="admission.html" class="dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions&nbsp;<i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="#">lorem ipsum</a></li>
+                    <li><a href="#">lorem ipsum</a></li>
+                    <li><a href="#">lorem ipsum</a></li>
+                  </ul>
+              </li>
               <li><a href="courses-offered.html">Courses Offered</a></li>
               <li><a href="VIT-RITcentre.html">VIT-RIT Centre</a></li>
               <li><a href="leadership.html">Leadership</a></li>
@@ -375,5 +382,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="node_modules/bootstrap/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+      }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+      });
+
+    </script>
   </body>
 </html>
